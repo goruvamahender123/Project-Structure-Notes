@@ -1224,3 +1224,1046 @@ If you want, next I can:
 ✅ show backup strategy
 
 Just tell me 👍
+
+Perfect 👍 — now you’ve moved to a **clean professional setup**.
+Let’s make sure you can continue working on your existing project smoothly.
+
+You have:
+
+✔ moved project to
+
+```
+D:\Dev\learning\java\lambda-functional-interfaces
+```
+
+✔ opened workspace → `sts-main`
+✔ clean structure
+
+Now we reconnect the project to STS.
+
+---
+
+# 🎯 GOAL
+
+Work with your existing project in a clean way:
+
+✅ import project into STS
+✅ verify Maven & Java setup
+✅ continue coding
+✅ push changes to GitHub
+✅ avoid workspace conflicts
+
+---
+
+# 🟢 STEP 1 — Open STS
+
+Start STS → workspace:
+
+```
+D:\Dev\workspaces\sts-main
+```
+
+---
+
+# 🟢 STEP 2 — Import the existing project
+
+Since you moved it, STS needs to re-link it.
+
+### Go to:
+
+```
+File → Import
+```
+
+---
+
+### Select:
+
+```
+Maven → Existing Maven Projects
+```
+
+Click **Next**
+
+---
+
+### Browse to:
+
+```
+D:\Dev\learning\java\lambda-functional-interfaces
+```
+
+Click **Finish**
+
+---
+
+# 🟢 STEP 3 — Verify project structure
+
+You should see in Project Explorer:
+
+```
+lambda-functional-interfaces
+   src/main/java
+   pom.xml
+```
+
+If yes → perfect.
+
+---
+
+# 🟢 STEP 4 — Update Maven (important)
+
+Right-click project →
+
+```
+Maven → Update Project
+```
+
+This ensures dependencies are correct.
+
+---
+
+# 🟢 STEP 5 — Verify Java version
+
+Right click project →
+
+```
+Properties → Java Compiler
+```
+
+Set:
+
+```
+17   (or your preferred version)
+```
+
+Then:
+
+```
+Properties → Java Build Path → Libraries
+```
+
+Ensure correct JDK is selected.
+
+---
+
+# 🟢 STEP 6 — Run a sample class
+
+Run any main method to confirm setup works.
+
+---
+
+# 🟢 STEP 7 — Verify Git still connected
+
+Open terminal inside project folder.
+
+Run:
+
+```bash
+git status
+```
+
+You should see:
+
+```
+On branch main
+```
+
+---
+
+# 🟢 STEP 8 — Continue working normally
+
+Now you can:
+
+✔ add solutions
+✔ create new Java files
+✔ update notes.md
+✔ commit changes
+
+---
+
+# 🟢 STEP 9 — Commit & push changes
+
+Whenever you add solutions:
+
+```bash
+git add .
+git commit -m "Added lambda exercises"
+git push
+```
+
+---
+
+# 🧭 DAILY WORKFLOW (CLEAN WAY)
+
+### Open STS
+
+Workspace: sts-main
+
+### Work on learning projects
+
+Import from:
+
+```
+Dev\learning
+```
+
+### Work on office projects
+
+Import from:
+
+```
+Dev\office
+```
+
+### Work on monorepo
+
+Import from:
+
+```
+Dev\monorepos
+```
+
+Workspace manages all.
+
+---
+
+# 🧠 WHY IMPORT INSTEAD OF MOVING INTO WORKSPACE?
+
+Workspace stores metadata only.
+
+Projects stay in Dev folders.
+
+This avoids:
+
+❌ metadata conflicts
+❌ accidental deletion
+❌ messy structure
+
+---
+
+# 🟢 IF PROJECT SHOWS RED ERRORS
+
+Do this:
+
+✔ Maven → Update Project
+✔ Project → Clean
+✔ Check JDK version
+✔ Check pom.xml
+
+---
+
+# 🟢 IF PROJECT DISAPPEARS LATER
+
+Re-import using:
+
+```
+File → Import → Existing Maven Project
+```
+
+Project remains safe.
+
+---
+
+# 🎯 FINAL RESULT
+
+Your clean structure now works like this:
+
+```
+learning/java
+   lambda-functional-interfaces  ← actual project
+
+workspace/sts-main
+   .metadata  ← IDE settings
+```
+
+Perfect professional setup.
+
+---
+
+# 🚀 PRO TIP
+
+You can import multiple learning projects.
+
+Workspace can handle many.
+
+---
+
+If you want, next I can:
+
+✅ show best structure inside lambda project
+✅ suggest exercises & solutions structure
+✅ help organize notes + code
+✅ show Git tagging for versions
+
+Just tell me 👍
+
+
+Perfect 👍 — now you’ve moved to a **clean professional setup**.
+Let’s make sure you can continue working on your existing project smoothly.
+
+You have:
+
+✔ moved project to
+
+```
+D:\Dev\learning\java\lambda-functional-interfaces
+```
+
+✔ opened workspace → `sts-main`
+✔ clean structure
+
+Now we reconnect the project to STS.
+
+---
+
+# 🎯 GOAL
+
+Work with your existing project in a clean way:
+
+✅ import project into STS
+✅ verify Maven & Java setup
+✅ continue coding
+✅ push changes to GitHub
+✅ avoid workspace conflicts
+
+---
+
+# 🟢 STEP 1 — Open STS
+
+Start STS → workspace:
+
+```
+D:\Dev\workspaces\sts-main
+```
+
+---
+
+# 🟢 STEP 2 — Import the existing project
+
+Since you moved it, STS needs to re-link it.
+
+### Go to:
+
+```
+File → Import
+```
+
+---
+
+### Select:
+
+```
+Maven → Existing Maven Projects
+```
+
+Click **Next**
+
+---
+
+### Browse to:
+
+```
+D:\Dev\learning\java\lambda-functional-interfaces
+```
+
+Click **Finish**
+
+---
+
+# 🟢 STEP 3 — Verify project structure
+
+You should see in Project Explorer:
+
+```
+lambda-functional-interfaces
+   src/main/java
+   pom.xml
+```
+
+If yes → perfect.
+
+---
+
+# 🟢 STEP 4 — Update Maven (important)
+
+Right-click project →
+
+```
+Maven → Update Project
+```
+
+This ensures dependencies are correct.
+
+---
+
+# 🟢 STEP 5 — Verify Java version
+
+Right click project →
+
+```
+Properties → Java Compiler
+```
+
+Set:
+
+```
+17   (or your preferred version)
+```
+
+Then:
+
+```
+Properties → Java Build Path → Libraries
+```
+
+Ensure correct JDK is selected.
+
+---
+
+# 🟢 STEP 6 — Run a sample class
+
+Run any main method to confirm setup works.
+
+---
+
+# 🟢 STEP 7 — Verify Git still connected
+
+Open terminal inside project folder.
+
+Run:
+
+```bash
+git status
+```
+
+You should see:
+
+```
+On branch main
+```
+
+---
+
+# 🟢 STEP 8 — Continue working normally
+
+Now you can:
+
+✔ add solutions
+✔ create new Java files
+✔ update notes.md
+✔ commit changes
+
+---
+
+# 🟢 STEP 9 — Commit & push changes
+
+Whenever you add solutions:
+
+```bash
+git add .
+git commit -m "Added lambda exercises"
+git push
+```
+
+---
+
+# 🧭 DAILY WORKFLOW (CLEAN WAY)
+
+### Open STS
+
+Workspace: sts-main
+
+### Work on learning projects
+
+Import from:
+
+```
+Dev\learning
+```
+
+### Work on office projects
+
+Import from:
+
+```
+Dev\office
+```
+
+### Work on monorepo
+
+Import from:
+
+```
+Dev\monorepos
+```
+
+Workspace manages all.
+
+---
+
+# 🧠 WHY IMPORT INSTEAD OF MOVING INTO WORKSPACE?
+
+Workspace stores metadata only.
+
+Projects stay in Dev folders.
+
+This avoids:
+
+❌ metadata conflicts
+❌ accidental deletion
+❌ messy structure
+
+---
+
+# 🟢 IF PROJECT SHOWS RED ERRORS
+
+Do this:
+
+✔ Maven → Update Project
+✔ Project → Clean
+✔ Check JDK version
+✔ Check pom.xml
+
+---
+
+# 🟢 IF PROJECT DISAPPEARS LATER
+
+Re-import using:
+
+```
+File → Import → Existing Maven Project
+```
+
+Project remains safe.
+
+---
+
+# 🎯 FINAL RESULT
+
+Your clean structure now works like this:
+
+```
+learning/java
+   lambda-functional-interfaces  ← actual project
+
+workspace/sts-main
+   .metadata  ← IDE settings
+```
+
+Perfect professional setup.
+
+---
+
+# 🚀 PRO TIP
+
+You can import multiple learning projects.
+
+Workspace can handle many.
+
+---
+
+If you want, next I can:
+
+✅ show best structure inside lambda project
+✅ suggest exercises & solutions structure
+✅ help organize notes + code
+✅ show Git tagging for versions
+
+Just tell me 👍
+
+
+Perfect 👍 — now that your project works with Java 17, switching it to **Java 21** follows the exact same logic.
+
+I’ll show you the clean, professional way.
+
+---
+
+# 🎯 When would you use Java 21?
+
+Use Java 21 when you want:
+
+✔ latest language features
+✔ virtual threads (🔥 important)
+✔ performance improvements
+✔ future-ready development
+
+👉 Great for learning & experimentation.
+
+---
+
+# 🟢 STEP 0 — Ensure JDK 21 is installed
+
+Check:
+
+```
+C:\Program Files\Java\jdk-21
+```
+
+OR
+
+```
+D:\Dev\tools\jdk-21
+```
+
+---
+
+# 🟢 STEP 1 — Add JDK 21 to STS (if not added)
+
+Go to:
+
+```
+Window → Preferences → Java → Installed JREs
+```
+
+Click:
+
+👉 Add → Standard VM
+👉 Select JDK 21 folder
+
+Click Apply.
+
+---
+
+# 🟢 STEP 2 — Set Project JRE to Java 21
+
+Right-click project →
+
+```
+Properties → Java Build Path → Libraries
+```
+
+Select:
+
+✔ Alternate JRE
+OR
+✔ Workspace default (jdk-21) (if available)
+
+Choose:
+
+```
+JavaSE-21
+```
+
+Click Apply.
+
+---
+
+# 🟢 STEP 3 — Change Compiler Compliance Level
+
+This enables Java 21 features.
+
+Right-click project →
+
+```
+Properties → Java Compiler
+```
+
+✔ Enable project specific settings
+
+Set:
+
+```
+Compiler compliance level → 21
+```
+
+Apply → Close.
+
+---
+
+# 🟢 STEP 4 — Update Maven (IMPORTANT)
+
+Open `pom.xml`.
+
+Change:
+
+```xml
+<maven.compiler.source>17</maven.compiler.source>
+<maven.compiler.target>17</maven.compiler.target>
+```
+
+to:
+
+```xml
+<maven.compiler.source>21</maven.compiler.source>
+<maven.compiler.target>21</maven.compiler.target>
+```
+
+OR
+
+```xml
+<properties>
+    <java.version>21</java.version>
+</properties>
+```
+
+---
+
+# 🟢 STEP 5 — Update Project
+
+Right click project →
+
+```
+Maven → Update Project
+```
+
+✔ Force Update
+✔ OK
+
+---
+
+# 🟢 STEP 6 — Verify Java 21 is active
+
+Try Java 21 feature:
+
+```java
+record Person(String name) {}
+```
+
+OR test virtual thread:
+
+```java
+Thread.startVirtualThread(() ->
+    System.out.println("Virtual Thread Running")
+);
+```
+
+If no errors → Java 21 active ✅
+
+---
+
+# 🧠 IMPORTANT: All 3 must match
+
+| Setting        | Must be |
+| -------------- | ------- |
+| Project JRE    | 21      |
+| Compiler level | 21      |
+| pom.xml        | 21      |
+
+---
+
+# ❗ COMMON ISSUE
+
+If JDK = 21 but compiler level = 17:
+
+❌ Java 21 features fail.
+
+---
+
+# 🧪 How to confirm runtime version
+
+When running app:
+
+Console prints:
+
+```
+Java version: 21
+```
+
+---
+
+# 🧭 Can you switch back to 17 later?
+
+Yes.
+
+Just change:
+
+✔ Project JRE
+✔ Compiler level
+✔ pom.xml
+
+Switching is easy.
+
+---
+
+# 🧠 Real developer workflow
+
+Use Java 21 to:
+
+✔ test new features
+✔ compare performance
+✔ try virtual threads
+✔ migration testing
+
+---
+
+# 🚀 Java 21 features you can try
+
+✔ Virtual Threads
+✔ Pattern Matching improvements
+✔ Record patterns
+✔ Switch pattern matching
+
+---
+
+# 🎯 Summary
+
+To use Java 21:
+
+1️⃣ Install JDK 21
+2️⃣ Add to STS Installed JREs
+3️⃣ Set project JRE → 21
+4️⃣ Set compiler → 21
+5️⃣ Update pom.xml
+6️⃣ Maven update
+
+Done.
+
+---
+
+If you want, I can next:
+
+✅ explain virtual threads simply
+✅ compare Java 17 vs 21 features
+✅ show migration issues from 17 → 21
+✅ suggest experiments to try
+
+Just tell me 👍
+
+
+Perfect 👍 — now that your project works with Java 17, switching it to **Java 21** follows the exact same logic.
+
+I’ll show you the clean, professional way.
+
+---
+
+# 🎯 When would you use Java 21?
+
+Use Java 21 when you want:
+
+✔ latest language features
+✔ virtual threads (🔥 important)
+✔ performance improvements
+✔ future-ready development
+
+👉 Great for learning & experimentation.
+
+---
+
+# 🟢 STEP 0 — Ensure JDK 21 is installed
+
+Check:
+
+```
+C:\Program Files\Java\jdk-21
+```
+
+OR
+
+```
+D:\Dev\tools\jdk-21
+```
+
+---
+
+# 🟢 STEP 1 — Add JDK 21 to STS (if not added)
+
+Go to:
+
+```
+Window → Preferences → Java → Installed JREs
+```
+
+Click:
+
+👉 Add → Standard VM
+👉 Select JDK 21 folder
+
+Click Apply.
+
+---
+
+# 🟢 STEP 2 — Set Project JRE to Java 21
+
+Right-click project →
+
+```
+Properties → Java Build Path → Libraries
+```
+
+Select:
+
+✔ Alternate JRE
+OR
+✔ Workspace default (jdk-21) (if available)
+
+Choose:
+
+```
+JavaSE-21
+```
+
+Click Apply.
+
+---
+
+# 🟢 STEP 3 — Change Compiler Compliance Level
+
+This enables Java 21 features.
+
+Right-click project →
+
+```
+Properties → Java Compiler
+```
+
+✔ Enable project specific settings
+
+Set:
+
+```
+Compiler compliance level → 21
+```
+
+Apply → Close.
+
+---
+
+# 🟢 STEP 4 — Update Maven (IMPORTANT)
+
+Open `pom.xml`.
+
+Change:
+
+```xml
+<maven.compiler.source>17</maven.compiler.source>
+<maven.compiler.target>17</maven.compiler.target>
+```
+
+to:
+
+```xml
+<maven.compiler.source>21</maven.compiler.source>
+<maven.compiler.target>21</maven.compiler.target>
+```
+
+OR
+
+```xml
+<properties>
+    <java.version>21</java.version>
+</properties>
+```
+
+---
+
+# 🟢 STEP 5 — Update Project
+
+Right click project →
+
+```
+Maven → Update Project
+```
+
+✔ Force Update
+✔ OK
+
+---
+
+# 🟢 STEP 6 — Verify Java 21 is active
+
+Try Java 21 feature:
+
+```java
+record Person(String name) {}
+```
+
+OR test virtual thread:
+
+```java
+Thread.startVirtualThread(() ->
+    System.out.println("Virtual Thread Running")
+);
+```
+
+If no errors → Java 21 active ✅
+
+---
+
+# 🧠 IMPORTANT: All 3 must match
+
+| Setting        | Must be |
+| -------------- | ------- |
+| Project JRE    | 21      |
+| Compiler level | 21      |
+| pom.xml        | 21      |
+
+---
+
+# ❗ COMMON ISSUE
+
+If JDK = 21 but compiler level = 17:
+
+❌ Java 21 features fail.
+
+---
+
+# 🧪 How to confirm runtime version
+
+When running app:
+
+Console prints:
+
+```
+Java version: 21
+```
+
+---
+
+# 🧭 Can you switch back to 17 later?
+
+Yes.
+
+Just change:
+
+✔ Project JRE
+✔ Compiler level
+✔ pom.xml
+
+Switching is easy.
+
+---
+
+# 🧠 Real developer workflow
+
+Use Java 21 to:
+
+✔ test new features
+✔ compare performance
+✔ try virtual threads
+✔ migration testing
+
+---
+
+# 🚀 Java 21 features you can try
+
+✔ Virtual Threads
+✔ Pattern Matching improvements
+✔ Record patterns
+✔ Switch pattern matching
+
+---
+
+# 🎯 Summary
+
+To use Java 21:
+
+1️⃣ Install JDK 21
+2️⃣ Add to STS Installed JREs
+3️⃣ Set project JRE → 21
+4️⃣ Set compiler → 21
+5️⃣ Update pom.xml
+6️⃣ Maven update
+
+Done.
+
+---
+
+If you want, I can next:
+
+✅ explain virtual threads simply
+✅ compare Java 17 vs 21 features
+✅ show migration issues from 17 → 21
+✅ suggest experiments to try
+
+Just tell me 👍
